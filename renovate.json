@@ -3,14 +3,8 @@
   "extends": [
     "config:best-practices"
   ],
-  "packageRules": [
-    {
-      "matchPackageNames": ["*"],
-      "enabled": true,
-      "major": {
-        "enabled": true
-      }
-    }
-  ],
-  "schedule": ["every weekend"] 
+  "dependencyDashboard": true,
+  "major": {
+    "dependencyDashboardApproval": true
+  }
 }
